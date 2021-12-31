@@ -41,9 +41,6 @@ class DataCollector(object):
                 lambda: self.clearing()
         }
 
-        with open('./config/onboarding.json', 'r') as f:
-            self.moving_path = json.load(f)
-
         self.options = webdriver.ChromeOptions()
         settings = {
                "recentDestinations": [{
