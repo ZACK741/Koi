@@ -1,4 +1,4 @@
 # SelfMade_spider
-base on selenium
+selenium based spider
 specific syntax
 i'll add docs later (if i remember)
